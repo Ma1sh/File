@@ -37,7 +37,12 @@ public class Main {
              case 4:
                  System.out.println("You chose Option 3.");
                  break;
-
+             case 5:
+                 System.out.println("Выход");
+                 return;
+             default:
+                 System.out.println("Введите другое число");
+                 break;
          }
      }
 
